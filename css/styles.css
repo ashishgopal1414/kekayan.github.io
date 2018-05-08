@@ -58,6 +58,11 @@ main > .tagline {
 .icons-social i {
 	padding: 10px;
 }
+.resume {
+	font-size: 1.0rem;
+	margin: 1.5rem 0;
+	font-weight: 100;
+}
 
 .devto {
 	margin-bottom: -0.20rem;
