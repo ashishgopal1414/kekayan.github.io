@@ -58,6 +58,11 @@ main > .tagline {
 .icons-social i {
 	padding: 10px;
 }
+.icons-social > a:hover{
+	animation: shake 2s infinite;
+  	animation-direction: alternate;
+}
+
 .resume {
 	font-size: 1.1rem;
 	margin: 1rem 0;
@@ -80,12 +85,21 @@ main > .tagline {
 	width: 2.65rem;
 	height: 2.65rem;
 }
-a:hover, a:active, a:link, a:visited {
+.notes , .resume > a:hover, a:active, a:link, a:visited {
   color: #FAFAFA;
   text-decoration: none;
   border-bottom-style: none;
 }
-a:hover
+.notes , .resume > a:hover
 {
 border: 2px solid #FAFAFA;
+}
+
+@keyframes shake {
+  0% {
+    transform: skewY(20deg);
+  }
+  100% {
+    transform: skewY(-20deg);
+  }
 }
