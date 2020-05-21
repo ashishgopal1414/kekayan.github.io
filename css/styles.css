@@ -85,3 +85,7 @@ a:hover, a:active, a:link, a:visited {
   text-decoration: none;
   border-bottom-style: none;
 }
+a:hover
+{
+border: 2px solid #FAFAFA;
+}
