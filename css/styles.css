@@ -59,9 +59,9 @@ main > .tagline {
 	padding: 10px;
 }
 .resume {
-	font-size: 1.0rem;
-	margin: 1.5rem 0;
-	font-weight: 100;
+	font-size: 1.1rem;
+	margin: 1rem 0;
+	font-weight: 150;
 }
 
 .notes {
@@ -79,4 +79,9 @@ main > .tagline {
 	margin-left: 0.675rem;;
 	width: 2.65rem;
 	height: 2.65rem;
+}
+a:hover, a:active, a:link, a:visited {
+  color: #FAFAFA;
+  text-decoration: none;
+  border-bottom-style: none;
 }
